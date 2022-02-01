@@ -1,0 +1,44 @@
+/* .box {
+  width: 32%;
+  height: 300px;
+  background-color: aquamarine;
+  padding-left: 1opx;
+  padding-top: 10px;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+} */
+
+.section2 {
+  height: auto;
+  border: 3px solid blue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+}
+
+.item1 {
+  order: 1;
+}
+
+body {
+  background: linear-gradient(to right, #ffffff52, #ffffff52),
+    url(/image.jpeg) no-repeat;
+  background-size: cover;
+}
