@@ -1,4 +1,5 @@
-/\*\*
+`````js
+/**
 
 - Returns a letter grade.
 - "A": 90-100%
@@ -9,9 +10,8 @@
 - @param {number} score
 - @param {number} total maximum possible score
 - @return {string} the score represented as a letter grade
-  \*/
+/**
 
-`````js
 function result(marks) {
     if (marks <= 100 && marks >= 90){
         return "A";
