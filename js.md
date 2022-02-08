@@ -1,6 +1,5 @@
-`````js
+``````js
 /**
-
 - Returns a letter grade.
 - "A": 90-100%
 - "B": 80-89%
@@ -26,5 +25,11 @@ function result(marks) {
     } else {
         return "Please enter marks between 0 to 100";
     }
-````
-`````
+
+`````js
+function calculateDogAge(rate)
+{
+ let conversion = rate/7;
+    console.log("Conversion rate of human is " +conversion+ " years to dog years")
+}
+``````
